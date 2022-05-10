@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <img
-          src="https://bulma.io/images/bulma-logo.png"
+          src="https://via.placeholder.com/150x50/FF0000/FFFFFF?Text=ArteHiperactivo"
           width="112"
           height="28"
         />
@@ -48,13 +48,13 @@
           </div>
         </div>
       </div>
-        <a class="navbar-item"> Contactos </a>
+        <!-- <a class="navbar-item"> Contactos </a> -->
 
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-primary">
-              <strong>Sign up</strong>
+              <strong>Contactanos</strong>
             </a>
           </div>
         </div>

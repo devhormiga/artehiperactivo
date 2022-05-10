@@ -8,3 +8,9 @@ a{
     color: #ea2a5d;
 }
 
+.is-primary{
+    background-color: $primarybg !important;
+}
+.navbar-item{
+    color: $primary !important;
+}
