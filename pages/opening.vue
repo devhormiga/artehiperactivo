@@ -6,7 +6,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-            <img src="" alt="Logo">
+            <img src="~/assets/logoAH.png" alt="Logo">
           </a>
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
@@ -20,7 +20,7 @@
               <i class="fa-brands fa-facebook-square"></i>
             </a>
             <a class="navbar-item">
-              <i class="fa-brands fa-facebook-square"></i>
+              <i class="fas fa-arrow-right"></i>
             </a>
             <a class="navbar-item">
               <i class="fa-brands fa-facebook-square"></i>
@@ -118,7 +118,13 @@ data() {
 </script>
 
 <style >
+.navbar{
+  height: 80px !important;
+}
 
+.navbar .navbar-item img{
+  max-height: 6rem !important;
+}
 .hero-config{
     position: relative !important;
 }
@@ -141,7 +147,7 @@ data() {
     z-index: 2000;
     margin: 20px 0px; 
 }
-.navbar-item .is-active{
+.navbar-item:hover  {
     color: rgb(227, 250, 18) !important;
     background-color: #ea2a5d !important;
 }
