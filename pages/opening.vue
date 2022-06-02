@@ -2,7 +2,7 @@
   <section class="hero is-primary is-fullheight">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
-    <nav class="navbar">
+    <nav class="navbar py-6">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
@@ -16,14 +16,14 @@
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item">
-              <i class="fa-brands fa-facebook-square"></i>
+            <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
+              <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
             </a>
-            <a class="navbar-item">
-              <i class="fas fa-arrow-right"></i>
+            <a  href="https://www.instagram.com/artehiperactivo/?igshid=YmMyMTA2M2Y=" class="navbar-item">
+              <i class="pt-2"><img src="~/assets/instagram.png" alt="icono de instagram para Arte Hiperactivo"></i>
             </a>
-            <a class="navbar-item">
-              <i class="fa-brands fa-facebook-square"></i>
+            <a href="https://www.youtube.com/channel/UCmGV-CZhfkLZp6qxloWzdsw"  class="navbar-item">
+              <i class="pt-2"><img src="~/assets/youtube.png" alt="icono de canal de youtube  para Arte Hiperactivo"></i>
             </a>
             <!-- <span class="navbar-item">
               <a class="button is-primary is-inverted">
@@ -43,7 +43,7 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="hero-body hero-body-h1 is-flex is-flex-direction-column has-text-centered">
-         <h1 class="title effect-text">Arte Hiperactivo</h1>
+         <!-- <h1 class="title effect-text">Arte Hiperactivo</h1> -->
       </div>
         <b-carousel
             v-model="carousel"
@@ -58,7 +58,7 @@
             :arrow="arrow"
             @change="info($event)">
             <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-                <section :class="`hero hero-config is-medium is-${carousel.color} is-bold`">
+                <section :class="`hero hero-config  is-${carousel.color} is-bold`">
                     <img class="image" :src="require(`@/assets/${carousel.foto}`)" alt="">
                     <div class="hero-body hero-body-config is-flex is-flex-direction-column has-text-centered">
                         <!-- <h1 class="title effect-text">{{carousel.title}}</h1> -->
@@ -72,16 +72,19 @@
 
   <!-- Hero footer: will stick at the bottom -->
   <div class="hero-foot">
-    <nav class="tabs">
+    <div>
+      <h1>Contactanos a artehiperactivo@gmail.com'</h1>
+    </div>
+    <nav class="">
       <div class="container">
-        <ul>
-          <li class="">Circo</li>
-          <li>Teatro</li>
-          <li>Danza</li>
-          <li>Performance</li>
-          <li>producciones</li>
-          <li></li>
-        </ul>
+        <div class="is-flex is-flex-grow-5 is-justify-content-space-between	">
+          <div class="">Circo</div>
+          <div>Teatro</div>
+          <div>Danza</div>
+          <div>Performance</div>
+          <div>producciones</div>
+          <div></div>
+        </div>
       </div>
     </nav>
   </div>
@@ -108,9 +111,10 @@ data() {
             interval: 3000,
             arrow: false,
             carousels: [
-                { title: 'Arte Hiperactivo' , subtitle:'Unicxs', foto: 'ah.jpg' },
-                { title: 'Arte Hiperactivo' , subtitle:'Inquietxs', foto: 'cientificos.jpg' },
-                { title: 'Arte Hiperactivo' , subtitle:'Divertidxs', foto: 'tosapa.jpg' }
+                { title: 'Contactanos a artehiperactivo@gmail.com' , subtitle:'Unicxs', foto: 'logoAH.png' },
+                { title: '' , subtitle:'Unicxs', foto: 'ah.jpg' },
+                { title: '' , subtitle:'Inquietxs', foto: 'cientificos.jpg' },
+                { title: '' , subtitle:'Divertidxs', foto: 'tosapa.jpg' }
             ]
         }
     }
@@ -149,7 +153,7 @@ data() {
 }
 .navbar-item:hover  {
     color: rgb(227, 250, 18) !important;
-    background-color: #ea2a5d !important;
+    background-color: #e3fa12!important;
 }
 
 .effect-text{
