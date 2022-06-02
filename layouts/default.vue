@@ -12,7 +12,7 @@
 <script>
 import Navbar from "~/components/navbar/navbar";
 import Footer from "~/components/footer";
-import Opening from '../pages/opening.vue';
+import Opening from '../pages/index.vue';
 export default {
   components: {
     Navbar,
