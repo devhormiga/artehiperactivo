@@ -71,7 +71,7 @@
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
+  <div class="hero-foot p-0 m-0">
     <div>
       <h1>Contactanos a artehiperactivo@gmail.com'</h1>
     </div>
