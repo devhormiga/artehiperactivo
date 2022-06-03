@@ -2,7 +2,7 @@ export default {
   target: 'static',
   // https://devhormiga.github.io/artehiperactivo/
   router: {
-    base: '/dev-hormiga/'
+    base: '/artehiperactivo/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
