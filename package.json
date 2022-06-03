@@ -7,9 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy2": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --dotfiles"
-
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^2.0.6",

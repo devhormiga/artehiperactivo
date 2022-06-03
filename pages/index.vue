@@ -59,7 +59,7 @@
             @change="info($event)">
             <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
                 <section :class="`hero hero-config  is-${carousel.color} is-bold`">
-                    <img class="image" :src="require(`@/assets/${carousel.foto}`)" alt="">
+                    <img class="image" :src="require(`~/assets/${carousel.foto}`)" alt="">
                     <div class="hero-body hero-body-config is-flex is-flex-direction-column has-text-centered">
                         <!-- <h1 class="title effect-text">{{carousel.title}}</h1> -->
                         <p class="is-size-3 has-text-black">{{carousel.subtitle}}</p>
