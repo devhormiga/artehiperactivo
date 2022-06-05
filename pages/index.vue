@@ -17,7 +17,7 @@
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
             <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
-              <i class="pt-2"><img src="@/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
+              <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
             </a>
             <a  href="https://www.instagram.com/artehiperactivo/?igshid=YmMyMTA2M2Y=" class="navbar-item">
               <i class="pt-2"><img src="~/assets/instagram.png" alt="icono de instagram para Arte Hiperactivo"></i>
