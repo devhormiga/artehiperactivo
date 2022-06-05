@@ -5,7 +5,7 @@
     <nav class="navbar py-6">
       <div class="container">
         <div class="navbar-brand is-align-items-center is-align-content-center">
-          <a class="navbar-item pl-5">
+          <a class="navbar-item pl-5 animate__animated animate__bounceInDown">
             <img class="ml-6" src="~/assets/logoAH.png" alt="Logo Arte Hiperactivo">
           </a>
           <!-- <span class="navbar-burger is-hidden" data-target="navbarMenuHeroA">
@@ -15,7 +15,7 @@
           </span> -->
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end is-size-1 is-warning">
+          <div class="navbar-end is-size-1 is-warning animate__animated animate__bounceInDown">
             <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
               <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
             </a>
@@ -30,7 +30,7 @@
       </div>
     </nav>
   </div>
-  <section class="is-hidden-tablet hero is-small mt-6">
+  <section class="is-hidden-tablet hero is-small animate__animated animate__rubberBand">
     <div class="hero-body is-flex has-text-centered is-justify-content-center">
        <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
         <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
@@ -75,8 +75,8 @@
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot p-0 m-0 has-text-centered has-text-warning">
-    <div class="container is-magentbg">
+  <div class="hero-foot p-0 m-0 has-text-centered is-size-4-desktop has-text-warning is-magentbg animate__animated animate__bounceInUp">
+    <div class="container">
       <h1>Contactanos a artehiperactivo@gmail.com'</h1>
     </div>
     <nav class="">
