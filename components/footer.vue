@@ -1,6 +1,6 @@
 <template class="back">
       <section >
-      <footer class="footer">
+      <footer class="footer has-background-black">
         <div class="content has-text-centered has-background-black">
           <p>
             <strong>Bulma</strong> by
@@ -25,7 +25,7 @@ export default {
 
 <style>
 .back{
-    background-color: #000000;
+    background-color: #000000  !important;
     color: #ea2a5d;
 }
 

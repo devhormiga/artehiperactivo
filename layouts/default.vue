@@ -1,23 +1,22 @@
 <template>
   <div>
-    <!-- <Navbar />
-      <div class="container column is-10">
+    <Navbar />
+      <div class="container column is-10 min-height">
         <Nuxt />
       </div>
-    <Footer /> -->
-    <Opening />
+    <Footer />
+    <!-- <Opening /> -->
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/navbar/navbar";
 import Footer from "~/components/footer";
-import Opening from '../pages/index.vue';
+// import Opening from '../pages/index.vue';
 export default {
   components: {
     Navbar,
     Footer,
-    Opening
   },
   data() {
     return {
@@ -38,5 +37,10 @@ export default {
 };
 </script>
 <style scoped>
-
+body{
+  background-color: #000 !important;
+}
+.min-height{
+  min-height: 500px !important;
+}
 </style>
