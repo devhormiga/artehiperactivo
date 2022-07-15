@@ -14,7 +14,14 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'description', name: 'description', content: 'Cia de Circo,Humor, Danza,Teatro' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'Arte Hiperactivo ' },
+      { hid: 'og:url', name: 'og:url', content: 'https://artehiperactivo.com.ar/' },
+      { hid: 'og:image', name: 'og:image', content: 'https://artehiperactivo.com.ar/_nuxt/img/tosapa.1c6961b.jpg' },
+      { hid: 'og:description', name: 'og:description', content: 'Cia de Circo,humor, Danza,Teatro' },
+     
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
