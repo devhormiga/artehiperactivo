@@ -44,6 +44,9 @@
     </div>
   </section>
   <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <Modal></Modal>
+  </div>
   <div class="is-hidden-mobile hero-body">
     <div class="container has-text-centered">
       <div class="hero-body hero-body-h1 is-flex is-flex-direction-column has-text-centered">
@@ -96,11 +99,11 @@
 </template>
 
 <script>
-
+import Modal from "../components/modalFlayer.vue"
 
 export default {
   components: {
-    
+    Modal
   },
 data() {
         return {
