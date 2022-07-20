@@ -30,7 +30,7 @@
       </div>
     </nav>
   </div>
-  <section class="is-hidden-tablet hero is-small animate__animated animate__rubberBand">
+  <section class="is-hidden-tablet hero is-halfheight animate__animated animate__rubberBand">
     <div class="hero-body is-flex has-text-centered is-justify-content-center">
        <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
         <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
@@ -128,7 +128,7 @@ data() {
 }
 </script>
 
-<style >
+<style lang="scss">
 .navbar{
   height: 80px !important;
 }
