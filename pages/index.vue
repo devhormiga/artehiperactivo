@@ -45,7 +45,7 @@
   </section>
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
-    <Modal></Modal>
+    <!-- <Modal></Modal> -->
   </div>
   <div class="is-hidden-mobile hero-body">
     <div class="container has-text-centered">
