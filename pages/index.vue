@@ -3,46 +3,10 @@
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
     <nav class="navbar py-6">
-      <div class="container">
-        <div class="navbar-brand is-align-items-center is-align-content-center">
-          <a class="navbar-item pl-5 animate__animated animate__bounceInDown">
-            <img class="ml-6" src="~/assets/logoAH.png" alt="Logo Arte Hiperactivo">
-          </a>
-          <!-- <span class="navbar-burger is-hidden" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span> -->
-        </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end is-size-1 is-warning animate__animated animate__bounceInDown">
-            <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
-              <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
-            </a>
-            <a  href="https://www.instagram.com/artehiperactivo/?igshid=YmMyMTA2M2Y=" class="navbar-item">
-              <i class="pt-2"><img src="~/assets/instagram.png" alt="icono de instagram para Arte Hiperactivo"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCmGV-CZhfkLZp6qxloWzdsw"  class="navbar-item">
-              <i class="pt-2"><img src="~/assets/youtube.png" alt="icono de canal de youtube  para Arte Hiperactivo"></i>
-            </a>
-          </div>
-        </div>
-      </div>
+
     </nav>
   </div>
-  <section class="is-hidden-tablet hero is-halfheight animate__animated animate__rubberBand">
-    <div class="hero-body is-flex has-text-centered is-justify-content-center">
-       <a  href="https://es-la.facebook.com/people/Arte-Hiperactivo/100007188108496/" class="navbar-item">
-        <i class="pt-2"><img src="~/assets/facebook.png" alt="icono de facebook para Arte Hiperactivo"></i>
-      </a>
-      <a  href="https://www.instagram.com/artehiperactivo/?igshid=YmMyMTA2M2Y=" class="navbar-item">
-        <i class="pt-2"><img src="~/assets/instagram.png" alt="icono de instagram para Arte Hiperactivo"></i>
-      </a>
-      <a href="https://www.youtube.com/channel/UCmGV-CZhfkLZp6qxloWzdsw"  class="navbar-item">
-        <i class="pt-2"><img src="~/assets/youtube.png" alt="icono de canal de youtube  para Arte Hiperactivo"></i>
-      </a>
-    </div>
-  </section>
+
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <!-- <Modal></Modal> -->
@@ -63,7 +27,7 @@
             :interval="interval"
             :repeat="repeat"
             :arrow="arrow"
-            @change="info($event)">
+            >
             <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
                 <section :class="`hero hero-config  is-${carousel.color} is-bold`">
                     <img class="image" :src="require(`~/assets/${carousel.foto}`)" alt="">
@@ -77,24 +41,7 @@
     </div>
   </div>
 
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot p-0 m-0 has-text-centered is-size-4-desktop has-text-warning is-magentbg animate__animated animate__bounceInUp">
-    <div class="container">
-      <h1>Contactanos a artehiperactivo@gmail.com'</h1>
-    </div>
-    <nav class="">
-      <div class="container">
-        <div class="is-flex is-flex-grow-5 is-justify-content-space-between	">
-          <div class="">Circo</div>
-          <div>Teatro</div>
-          <div>Danza</div>
-          <div>Performance</div>
-          <div>producciones</div>
-          <div></div>
-        </div>
-      </div>
-    </nav>
-  </div>
+
 </section>
 </template>
 
@@ -132,10 +79,10 @@ data() {
 .navbar{
   height: 80px !important;
 }
-.navbar .navbar-burger{
-  color:#e3fa12 !important;
-  font-size: 3rem !important;
-}
+// .navbar .navbar-burger{
+//   color:#e3fa12 !important;
+//   font-size: 3rem !important;
+// }
 .navbar .navbar-item img{
   max-height: 6rem !important;
 }
@@ -160,10 +107,6 @@ data() {
     left: 10%;
     z-index: 2000;
     margin: 20px 0px; 
-}
-.navbar-item:hover  {
-    color: rgb(227, 250, 18) !important;
-    background-color: #e3fa12!important;
 }
 
 .effect-text{

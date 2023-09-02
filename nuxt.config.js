@@ -37,6 +37,25 @@ export default {
   styleResources: {
     scss: ['./assets/css/variables.scss']
   },
+  router: {
+    routes: [
+      {
+        name: 'index',
+        path: '/',
+        component: 'pages/index.vue'
+      },
+      {
+        name: 'aboute',
+        path: '/aboute',
+        component: 'pages/aboute.vue'
+      },
+      {
+        name: 'index',
+        path: '/',
+        component: 'pages/index.vue'
+      },
+    ]
+  },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],

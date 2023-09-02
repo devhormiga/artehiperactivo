@@ -1,23 +1,23 @@
 <template>
   <div>
-    <!-- <Navbar />
-      <div class="container column is-10">
-        <Nuxt />
-      </div>
-    <Footer /> -->
-    <Opening />
+     <Navbar />
+
+    <nuxt />
+    <!-- <Opening /> -->
+    <Footer /> 
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/navbar/navbar";
 import Footer from "~/components/footer";
-import Opening from '../pages/index.vue';
+// import Opening from '../pages/index.vue';
+
 export default {
   components: {
     Navbar,
     Footer,
-    Opening
+    // Opening
   },
   data() {
     return {
