@@ -83,7 +83,13 @@ export default {};
 @import "assets/css/variables";
 
 .navbar{
-    background-color: #000000;
+  background-color: #000000;
+}
+.navbar-menu .navbar-end{
+  margin-right: 15px;
+}
+.navbar-menu .navbar-end .navbar-item img {
+  max-height: 2rem !important;
 }
 .item:hover{
     background-color: $secondary;

@@ -12,7 +12,6 @@
 import Navbar from "~/components/navbar/navbar";
 import Footer from "~/components/footer";
 // import Opening from '../pages/index.vue';
-
 export default {
   components: {
     Navbar,
@@ -38,5 +37,10 @@ export default {
 };
 </script>
 <style scoped>
-
+body{
+  background-color: #000 !important;
+}
+.min-height{
+  min-height: 500px !important;
+}
 </style>

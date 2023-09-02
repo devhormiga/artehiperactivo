@@ -26,7 +26,7 @@
             :pause-info-type="pauseType"
             :interval="interval"
             :repeat="repeat"
-            :arrow="arrow"
+            :arrow="arrowgit"
             >
             <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
                 <section :class="`hero hero-config  is-${carousel.color} is-bold`">

@@ -41,7 +41,7 @@ export default {
   font-size: 1em !important;
 }
 .back{
-    background-color: #000000;
+    background-color: #000000  !important;
     color: #ea2a5d;
 }
 
