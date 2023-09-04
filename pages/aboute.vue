@@ -2,7 +2,10 @@
     <div class="container">
         <div class="columns">
             <div class="column is-3">
-                <CardPeople />
+                <nuxt-link to="panambi">
+                    <CardPeople />
+                </nuxt-link>
+                
             </div>
             <div class="column is-6">
                 <div class="section">
@@ -12,7 +15,9 @@
                 </div>
             </div>
             <div class="column is-3">
-                <CardPeople />
+                <nuxt-link to="Natalio">
+                    <CardPeople />
+                </nuxt-link>
             </div>
         </div>
     </div>

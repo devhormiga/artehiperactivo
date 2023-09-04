@@ -50,6 +50,16 @@ export default {
         component: 'pages/aboute.vue'
       },
       {
+        name: 'panambi',
+        path: '/',
+        component: 'pages/panambi.vue'
+      },
+      {
+        name: 'natalio',
+        path: '/',
+        component: 'pages/natalio.vue'
+      },
+      {
         name: 'index',
         path: '/',
         component: 'pages/index.vue'
