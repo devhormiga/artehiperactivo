@@ -31,11 +31,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/main.scss',
+    '@/assets/scss/main.scss',
+    '@/assets/scss/variables.scss',
     'animate.css/animate.min.css'
   ],
   styleResources: {
-    scss: ['./assets/css/variables.scss']
+    scss: ['./assets/scss/variables.scss']
   },
   router: {
     routes: [
@@ -85,5 +86,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    // loaders: {
+    //   scss: {
+    //     additionalData: '~/assets/scss/variables.scss', // Ruta de tu archivo de variables Sass
+    //   },
+    // },
   }
 }

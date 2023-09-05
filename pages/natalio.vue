@@ -24,9 +24,9 @@ export default {
         works: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ut enim, cumque consequatur nihil unde exercitationem, fuga autem iusto deleniti deserunt velit porro suscipit veritatis. Pariatur, asperiores. Libero, ea molestias? Dicta vitae nostrum laudantium corrupti exercitationem cum neque quidem quas, quaerat eos totam ex sapiente accusantium ut aut optio explicabo nisi fuga? Fugiat voluptates eos mollitia quia repellendus assumenda eveniet molestias consequatur quis, nam, est provident quidem aliquam! Nisi quia tempore maxime fugit nulla, vitae est odio neque dolorum! Illum vel reiciendis itaque quasi laborum ut harum eius facere suscipit ipsum exercitationem, maiores consequuntur, a sequi perspiciatis praesentium pariatur in.',
         social: '@lalalala',
         photos: [
-        'https://bulma.io/images/placeholders/1280x960.png',
-        'https://bulma.io/images/placeholders/1280x960.png',
-        'https://bulma.io/images/placeholders/1280x960.png'
+            'https://bulma.io/images/placeholders/1280x960.png',
+            'https://bulma.io/images/placeholders/1280x960.png',
+            'https://bulma.io/images/placeholders/1280x960.png'
         ]
     }
 }

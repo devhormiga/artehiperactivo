@@ -1,6 +1,7 @@
-@import "variables";
+
+@import '~/assets/scss/variables.scss';
+
 body{
-    // background-color: #1d1d1b !important;
     background-color: #000 !important;
 
     color: $primary;
@@ -10,9 +11,7 @@ a{
     color: #ea2a5d;
 }
 
-// a:hover{
-//     background-color: $secondary;
-// }
+
 .is-primary{
     background-color: $primarybg !important;
 }

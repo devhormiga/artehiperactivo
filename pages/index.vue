@@ -84,10 +84,10 @@ data() {
 .navbar{
   height: 80px !important;
 }
-// .navbar .navbar-burger{
-//   color:#e3fa12 !important;
-//   font-size: 3rem !important;
-// }
+/* .navbar .navbar-burger{
+  color:#e3fa12 !important;
+   font-size: 3rem !important;
+*/ 
 .navbar .navbar-item img{
   max-height: 6rem !important;
 }

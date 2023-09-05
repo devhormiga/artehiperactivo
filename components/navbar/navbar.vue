@@ -80,7 +80,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import "assets/css/variables";
+@import '~/assets/scss/variables.scss';
 
 .navbar{
   background-color: #000000;
