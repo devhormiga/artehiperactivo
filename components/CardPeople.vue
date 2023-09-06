@@ -5,7 +5,7 @@
         <img :src="image" alt="Placeholder image">
       </figure>
     </div>
-    <div class="card-content">
+    <div class="card-content ">
       <div class="media">
         <div class="media-left">
           <figure class="image is-48x48">
@@ -52,3 +52,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" >
+@import '~/assets/scss/variables.scss';
+
+
+</style>

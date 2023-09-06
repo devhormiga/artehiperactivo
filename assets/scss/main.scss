@@ -1,6 +1,5 @@
 
 @import '~/assets/scss/variables.scss';
-
 body{
     background-color: #000 !important;
 
@@ -20,4 +19,27 @@ a{
 }
 .navbar-item{
     color: $primary !important;
+}
+
+.border-fux{
+    border: 2px solid $primary;
+}
+.border-dark{
+    border: 2px solid $gray-dark;
+}
+.border-gray{
+    border: 2px solid $gray;
+}
+.bg-dark{
+    background-color: $gray-dark;
+}
+
+.bg-black{
+    background-color: #000;
+}
+.bg-fux{
+    background-color: $secundarybg;
+}
+.font-white{
+    color: #fff;
 }

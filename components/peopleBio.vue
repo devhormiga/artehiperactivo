@@ -3,7 +3,7 @@
 
         <div class="tile is-ancestor">
         <div class="tile is-vertical is-8">
-            <div class="tile border-fux">
+            <div class="tile ">
             <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification is-primary">
                     <div class="">
@@ -14,13 +14,13 @@
                     <p class="title">{{ name }}</p>
                     <p class="subtitle">{{skill}}</p>
                 </article>
-                <article class="tile is-child notification is-warning">
+                <article class="tile is-child notification bg-black border-fux font-white">
                 <p class="title">Contacto</p>
                 <p class="subtitle">{{ social }}</p>
                 </article>
             </div>
             <div class="tile is-parent">
-                <article class="tile is-child notification is-info">
+                <article class="tile is-child notification bg-black border-dark">
                 <p class="title">Biografía</p>
                 <p class="subtitle">{{  cv  }}</p>
                 <!-- <figure class="image is-4by3">
@@ -30,13 +30,13 @@
             </div>
             </div>
             <div class="tile is-parent">
-            <article class="tile is-child notification is-danger">
+            <article class="tile is-child notification bg-black">
                 <p class="title">Perpesctiva</p>
                 
                 <p class="subtitle">Aligned with the right tile</p>
                 <div >
                     <div class=" container columns">
-                        <div class="column">
+                        <div class="column ">
                             <p class="subtitle">Misión</p>
                             <p class="content">{{ mision }}</p>
                         </div>
@@ -50,10 +50,10 @@
             </div>
         </div>
         <div class="tile is-parent">
-            <article class="tile is-child notification is-success">
-            <div class="content">
+            <article class="tile is-child notification bg-black border-dark">
+            <div class="">
 
-                <div class="content">
+                <div class="">
                     <!-- agregar accesivilidad a las iamgenes -->
                     <figure class="image is-4by3">
                         <img :src="photos[0]">
@@ -130,6 +130,25 @@ export default {
 
 .border-fux{
     border: 2px solid $primary;
+}
+.border-dark{
+    border: 2px solid $gray-dark;
+}
+.border-gray{
+    border: 2px solid $gray;
+}
+.bg-dark{
+    background-color: $gray-dark;
+}
+
+.bg-black{
+    background-color: #000;
+}
+.bg-fux{
+    background-color: $secundarybg;
+}
+.font-white{
+    color: #fff;
 }
 .is-256x256{
     width: 256px;
