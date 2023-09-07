@@ -18,7 +18,10 @@
         <b-navbar-item class="item" href="#">
          <nuxt-link :to="{name: 'aboute'}"> Sobre Nosotrxs</nuxt-link>
         </b-navbar-item>
-        <b-navbar-dropdown class="item " label="Produciones">
+        <b-navbar-item class="item" href="#">
+         <nuxt-link :to="{name: 'productions'}"> Producciones</nuxt-link>
+        </b-navbar-item>
+        <!-- <b-navbar-dropdown class="item " label="Produciones">
                 <b-navbar-item href="#">
                   Envalijados
                 </b-navbar-item>
@@ -34,7 +37,7 @@
                 <b-navbar-item href="#">
                   Producciones perosnales de cada integrante
                 </b-navbar-item>
-            </b-navbar-dropdown>
+            </b-navbar-dropdown> -->
 
         <b-navbar-dropdown class="item" label="Galeria">
                 <b-navbar-item href="#">
@@ -76,7 +79,7 @@
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style lang="scss" scoped>

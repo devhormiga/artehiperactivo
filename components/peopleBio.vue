@@ -37,12 +37,22 @@
                 <div >
                     <div class=" container columns">
                         <div class="column ">
-                            <p class="subtitle">Misión</p>
-                            <p class="content">{{ mision }}</p>
+                            <article class="message is-danger local-config">
+                                <div class="message-body font-white">
+                                    <p class="subtitle">Misión</p>
+                                    <p class="content">{{ mision }}</p>                                </div>
+                                </article>
+                            
+                            
                         </div>
                         <div class="column">
-                            <p class="subtitle">Visión</p>
-                            <p class="content">{{ vision }}</p>
+                            <article class="message is-danger local-config">
+                                <div class="message-body font-white">
+                                   <p class="subtitle">Visión</p>
+                                    <p class="content">{{ vision }}</p>
+                                </div>
+                            </article>
+
                         </div>
                     </div>
                 </div>
@@ -126,7 +136,10 @@ export default {
 <style  lang="scss">
 @import '~/assets/scss/variables.scss';
 
-
+.local-config{
+    background-color: #ea2a5d24 !important;
+    color: #ffffff !important;
+}
 
 .border-fux{
     border: 2px solid $primary;

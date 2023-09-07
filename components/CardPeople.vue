@@ -56,5 +56,15 @@ export default {
 <style lang="scss" >
 @import '~/assets/scss/variables.scss';
 
+.card {
+  background-color: #ffffff00  !important;
+
+}
+.card-content{
+
+  background-color: #ea2a5d24 !important;
+  color: #ffffff !important;
+  border: 1px solid $primary;
+}
 
 </style>

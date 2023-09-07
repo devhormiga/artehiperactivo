@@ -10,7 +10,12 @@ a{
     color: #ea2a5d;
 }
 
-
+.font-dark {
+    color: $gray-dark;
+}
+.font-grey {
+    color: $gray;
+}
 .is-primary{
     background-color: $primarybg !important;
 }
