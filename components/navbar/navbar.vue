@@ -4,7 +4,7 @@
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
               <div class="navbar-item pl-5 animate__animated animate__bounceInDown">
-            <img class="ml-6" src="~/assets/logoAH.png" alt="Logo Arte Hiperactivo">
+            <img class="ml-0" src="~/assets/logoAH.png" alt="Logo Arte Hiperactivo">
               </div>
             </b-navbar-item>
         </template>
@@ -91,8 +91,12 @@
 .navbar-menu .navbar-end{
   margin-right: 15px;
 }
+.navbar-item img{
+  max-height: 5rem !important;
+
+}
 .navbar-menu .navbar-end .navbar-item img {
-  max-height: 2rem !important;
+  max-height: 5rem !important;
 }
 .item:hover{
     background-color: $secondary;

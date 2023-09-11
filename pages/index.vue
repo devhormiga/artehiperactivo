@@ -15,7 +15,7 @@
 
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
-        <!-- <Modal></Modal> -->
+        <modal-flayer></modal-flayer>
         
       </div>
       <div class="is-hidden-mobile hero-body">
@@ -51,11 +51,11 @@
 </template>
 
 <script>
-import Modal from "../components/modalFlayer.vue"
+import modalFlayer from "../components/modalFlayer.vue"
 
 export default {
   components: {
-    Modal
+    modalFlayer
   },
 data() {
         return {
