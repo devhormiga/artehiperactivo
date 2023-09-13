@@ -1,6 +1,6 @@
 <template>
-  <div class="container py-6">
-    <b-navbar class="navbar" role="navigation" aria-label="main navigation">
+  <div id="container-nav" class="container py-6">
+    <b-navbar class="navbar" role="navigation" aria-label="main navigation" fixed-top="true" centered="true">
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
               <div class="navbar-item pl-5 animate__animated animate__bounceInDown">
@@ -85,7 +85,12 @@
 <style lang="scss" scoped>
 @import '~/assets/scss/variables.scss';
 
+#container-nav{
+  margin-bottom: 3rem;
+}
 .navbar{
+  border-bottom: 2px solid $gray;
+
   background-color: #000000;
 }
 .navbar-menu .navbar-end{
@@ -99,10 +104,11 @@
   max-height: 5rem !important;
 }
 .item:hover{
-    background-color: $secondary;
+  background-color: $primary-transparent;
 }
 .navbar-item, .navbar-link{
     color: $primary !important;
+    font-size: 2rem;
 }
 .navbar-item, .navbar-link:hovet{
     background-color: $secondary !important;

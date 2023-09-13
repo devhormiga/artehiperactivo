@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-fullheight">
       <!-- Hero head: will stick at the top -->
       <div class="hero-head columns mt-6">
         <div class="column is-1"></div>
@@ -15,7 +15,7 @@
 
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
-        <modal-flayer></modal-flayer>
+        <!-- <modal-flayer></modal-flayer> -->
         
       </div>
       <div class="is-hidden-mobile hero-body">
@@ -51,11 +51,11 @@
 </template>
 
 <script>
-import modalFlayer from "../components/modalFlayer.vue"
+// import modalFlayer from "../components/modalFlayer.vue"
 
 export default {
   components: {
-    modalFlayer
+    // modalFlayer
   },
 data() {
         return {
@@ -81,6 +81,7 @@ data() {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
 .navbar{
   height: 80px !important;
 }
@@ -115,7 +116,7 @@ data() {
 }
 
 .effect-text{
-    color: #000;
+    color:  $text-primary ;
     background-color:  none;
     text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #ea2a5d, 0 0 30px #ea2a5d, 0 0 40px #ea2a5d, 0 0 55px #ea2a5d, 0 0 75px #ea2a5d;
 

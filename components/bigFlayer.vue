@@ -35,14 +35,14 @@
                                 </div>
                                 <div class="tile is-child ">
 
-                                    <figure class="image ">
-                                         <iframe class="has-ratio" width="640" height="360" :src="trailer" frameborder="0" allowfullscreen></iframe>
+                                    <figure class="image m-5">
+                                         <iframe class="has-ratio proporcion"  :src="trailer" frameborder="0" allowfullscreen></iframe>
                                     </figure>
                                 </div>
                             </div>
                             <div class="tile ">
                                 <article class="tile is-child is-parent">
-                                    <div class="">
+                                    <div id="miniGalery" class="is-flex is-flex-direction-column is-justify-content-space-between">
                                         <!-- agregar accesivilidad a las iamgenes -->
                                         <figure class="image img-config">
                                             <img :src="photos[0]">
@@ -109,7 +109,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/variables.scss";
-
+    #miniGalery {
+        height: 100%;
+    }
     .big-flayer-config{
         // border: 1px solid $gray-dark;
         margin-bottom: 1rem;
@@ -146,4 +148,13 @@ export default {
         width: auto;
         max-width: 90%;
     }
+
+    .proporcion{
+        width: 100%;
+        height: 420px;
+
+    }
+
+
+ 
 </style>
