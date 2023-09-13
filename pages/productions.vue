@@ -1,5 +1,5 @@
 <template>
-    <div class="container is-flex is-flex-direction-column is-flex-grow-3">
+    <div class="container is-flex is-flex-direction-column is-flex-grow-3 is-justify-content-space-between">
         <big-flayer></big-flayer>
         <big-flayer></big-flayer>
         <big-flayer></big-flayer>

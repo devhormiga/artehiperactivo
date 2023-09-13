@@ -1,6 +1,6 @@
 <template>
-    <div class="conmtainer">
-        <section :style="imageUrl" class="hero m-5 is-medium bgimg">
+    <div class="big-flayer-config">
+        <section :style="imageUrl" class="hero mx-5 is-medium bgimg">
             <div class="hero-body">
                 <p class="title">
                     {{ title }}
@@ -10,14 +10,18 @@
                 </p>
             </div>
         </section>
-        <b-collapse :open="false" aria-id="contentIdForA11y1">
-            <template #trigger="props">
+        <b-collapse :open="false" :position="is-bottom" aria-id="contentIdForA11y1" class="mx-5">
+            <template #trigger="props" >
                 <b-button
-                    label="MÁS"
-                    type="is-primary"
+                    class="button-style"
+                    :label="!props.open ? 'MÄS' : 'MENOS' "
                     aria-controls="contentIdForA11y1"
                     :aria-expanded="props.open" 
-                    expanded />
+                    size="is-large"
+                    expanded 
+                    :icon-right="!props.open ? 'menu-down' : 'menu-up'">
+
+                </b-button>
             </template>
             <article class="message  local-config">
 
@@ -31,8 +35,8 @@
                                 </div>
                                 <div class="tile is-child ">
 
-                                    <figure class="image is-16by9">
-                                         <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
+                                    <figure class="image ">
+                                         <iframe class="has-ratio" width="640" height="360" :src="trailer" frameborder="0" allowfullscreen></iframe>
                                     </figure>
                                 </div>
                             </div>
@@ -57,7 +61,7 @@
                     </div>
 
 </div>
-                     </article>
+            </article>
         </b-collapse>
     </div>
 </template>
@@ -67,7 +71,7 @@ export default {
     props : {
         bgimage: {
             type: String,
-            default: 'https://placehold.co/600x400/png'
+            default: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/53CC/production/_103125412_the-defender.jpg'
         },
         title: {
             type: String,
@@ -79,7 +83,7 @@ export default {
         },
         sinopsis: {
             type: String,
-            default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque."
+            default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque."
         },
         photos:{
             type: Array,
@@ -89,6 +93,10 @@ export default {
                 'https://bulma.io/images/placeholders/640x320.png'
         
             ]
+        },
+        trailer: {
+            type: String,
+            default: "https://www.youtube.com/embed/YE7VzlLtp-4"
         }
     },
     computed:{
@@ -100,13 +108,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
+
+    .big-flayer-config{
+        // border: 1px solid $gray-dark;
+        margin-bottom: 1rem;
+        padding: 0px;
+    }
     .bgimg {
         // background-image: url('{{ bgimage }}');
         background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
         background-position: center; /* Centra la imagen horizontal y verticalmente */
         height: 300px; /* Establece la altura del contenedor según tus necesidades */
     }
+    .button-style{
+        transition: 1s;
 
+        color: $text-primary;
+        background-color: transparent;
+        border: 5px ;
+        border-bottom: 1px solid $primary;
+        // border: 0px;
+    }
+    .button-style:hover{
+        transition: 1s;
+        transition-timing-function: ease-out; 
+        background-color: #ea2a5d2a !important;
+        letter-spacing: 2rem;
+        font-weight: 900;
+    }
+ 
     .local-config{
         background-color: #7b686d24 !important;
         color: #ffffff !important;
