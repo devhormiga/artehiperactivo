@@ -8,12 +8,37 @@
             </div>
             <div class="column is-6">
                 <div class="section">
-                    <h1 class="title">La Compania</h1>
+                    <h1 class="title font-fux">La Compania</h1>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed sint, dicta nemo similique architecto eum porro! Nihil eos voluptates repudiandae. Nesciunt magnam ipsa laborum, magni consequuntur, alias perspiciatis mollitia vitae nemo illum id fugit, voluptates harum eligendi. Unde quaerat animi dolor. Dolorem, reprehenderit iste, beatae repellendus mollitia aperiam quia itaque harum et incidunt porro quisquam rerum voluptatem. Quasi vero dolorum laborum impedit ratione eveniet quas, ut magni! Quisquam harum expedita veritatis delectus accusamus voluptatibus. Necessitatibus illum omnis, atque esse aliquam illo a doloribus repellat placeat, tempora asperiores nisi officiis debitis. Eius temporibus dicta iusto, laborum tempora minima sequi esse impedit facilis? Culpa quam amet quaerat enim molestiae vero dolorem corporis necessitatibus, eum minima ex. Soluta quaerat corrupti tempora illo provident. Accusamus atque adipisci perferendis id eos. Aut reprehenderit laborum labore repellendus unde non quia ratione commodi cumque, sunt fugiat eligendi reiciendis facilis accusamus ea recusandae, vel eius omnis earum eos dolor sequi eveniet id? Cum, animi. Quod nihil consequuntur nemo. Reprehenderit recusandae atque eius soluta necessitatibus. Nostrum placeat facilis, libero molestiae ex quia. Reiciendis explicabo dolorum quibusdam porro doloribus id in doloremque dolore ipsum dignissimos? Sapiente nostrum nisi atque, mollitia consectetur facilis porro nihil, eius similique sint iste expedita. Quam maiores quia inventore ullam corrupti illum tempore, eum distinctio facere architecto et numquam quod optio est excepturi.</p>
-                     <p class="font-white"> Iste nisi, commodi magnam ea id assumenda laborum tempora aspernatur placeat ex, distinctio nulla cumque enim itaque expedita fugit culpa reprehenderit animi maxime laboriosam nobis eveniet voluptatibus voluptas harum. Maxime nobis odit minus, officia mollitia consequuntur quae fugit dicta sit quaerat dolorum ab facere unde totam veniam, dolorem magnam, atque consectetur quia recusandae accusamus in provident ullam? Ipsum nemo, exercitationem et dolor culpa in illo aliquam cum quibusdam porro eaque nobis. Fugiat ipsum unde consequatur sequi doloribus totam vero eaque quo molestias porro aspernatur iusto beatae commodi, modi ratione magni fuga quidem non, laudantium nemo eligendi sed cumque expedita assumenda!</p>
-                     <p class="font-grey"> Facilis culpa reprehenderit, itaque temporibus hic aliquid odio, magni nobis quis tempore tempora eius praesentium? Culpa unde repellat cumque maxime illum dolorum commodi praesentium beatae ipsa sunt earum, ad incidunt eaque obcaecati cum quas fugiat quo quisquam quis dicta! Esse, odit? Porro iste unde facilis reiciendis ipsam tempora, error consectetur ipsum. Provident voluptatibus adipisci fuga fugit dolores itaque, autem repellat, saepe explicabo ex ullam ab aperiam possimus facere enim vel aut assumenda nostrum repudiandae ea quae. Blanditiis sit ipsum asperiores est. Obcaecati debitis laudantium accusantium velit. Accusamus quis possimus error eligendi saepe at culpa quaerat, fuga dolore aspernatur, nemo nisi, excepturi dignissimos explicabo. Consequuntur doloremque, laboriosam sint nulla consectetur, facilis nemo voluptatem esse perspiciatis mollitia, neque atque temporibus amet voluptates. </p> 
-                     <p class="font-dark">deleniti dolorem quos, amet soluta asperiores repudiandae sunt esse error explicabo ab possimus impedit, eligendi optio cumque consequuntur ut maxime repellat quia? Dolores odio perspiciatis aliquid voluptas aspernatur perferendis placeat quae? Recusandae quasi optio quisquam! Obcaecati incidunt saepe rem deserunt eius repellendus enim dolor, quis cumque, non blanditiis nesciunt vero eaque a nam recusandae repellat quo minima quos aliquam. Quas, a magnam?</p>
+                        Con el circo sobre los pies que nos llevan día a día a vivir la vida. Con el circo que atraviesa nuestras vidas queremos compartir con chicos y grandes el derecho al arte, la expresión, la imaginación, el juego.
+
+                        Los barrios, las escuelas, distintos espacios públicos son escenarios sociales significativos. En estos espacios se conjuga la identidad, la ideología, la sociabilidad. Son espacios de construcción.
+
+                        El circo es atravesado por lo social y lo educativo. Por medio de la diversión transmite reglas, propone objetivos, participación, acción, compartir. Es un lenguaje expresivo. Un espacio de comunicación directa multidiciplinaria donde se mezcla la música, la danza, la acrobacia, la teatralidad, malabares y el juego.
+
+                        Desde el 2013 en la ciudad de La Plata- Buenos Aires, Pamela Suarez y Diego Vilardebó. La primera experiencia fue del 16 al 20 de Octubre en el Elemental 6to Festival de Circo- Posadas Misiones- Argentina. Después compartimos animaciones de cumpleaños, la organización de una Varieté circense el 6 de diciembre en La Plata- Buenos Aires. Llegó el verano y nos enfrentamos al escenario de la fiesta de Carnaval de Meridiano V, en la Estación Provincial en La Plata los primeros días de marzo del 2014. 
+
+                        En pleno principio del mes de mayo de 2014, ArteHiperactivo se une con Cirko Sincamarín y formamos “Seis Pies” para salir a caminar Latinoamérica. Con Seis Pies anduvimos por plazas, parques y escuelas primero en Salta despúes Bolivia (Sucre, Cochabamba, La Paz, Copacabana) y Perú (Arequipa y Lima).
+
+                        En junio de 2014 vuelve a quedar ArteHiperactivo en Lima- Perú trabajando en la producción de la temporada de invierno del Circo Munduta hasta fines de julio.
+
+                        En los días de agosto y septiembre caminando Ecuador.
+
+                        Presentaciones en Ecuador (octubre y noviembre de 2014)
+
+                        Microtetaro GYE - Guayaquil 8, 9 y 10 de octubre de 2014
+
+                        Presentaciones en La Fábrica - Guayaquil 3 y 4 de octubre de 2014
+
+                        Presentaciones en Quito - Teatro en casa 14/11/2014
+
+                        Mundo Juvenil 16/11/14 y 23/11/2014 (Quito)
+
+                        La Karakola 22/11/2014 (Quito)
+
+                        Participación y dictado de talleres de clown y acrobacia en tela en el Primer Encuentro de Circo y Pedagogía en Loja - 4, 5 y 6 de diciembre de 2014
+
+                        </p>
                 </div>
             </div>
             <div class="column is-3">

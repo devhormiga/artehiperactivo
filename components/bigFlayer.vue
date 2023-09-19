@@ -1,11 +1,14 @@
 <template>
+
+    <!-- en todos los casos comprobar si una propiedad viene vacia usar la que este por defecto
+    v-if + algo a investigar -->
     <div class="big-flayer-config">
-        <section :style="imageUrl" class="hero mx-5 is-medium bgimg">
+        <section  class="hero mx-5 is-medium bgimg" :style="imageUrl">
             <div class="hero-body">
-                <p class="title">
+                <p class="title font-white">
                     {{ title }}
                 </p>
-                <p class="subtitle">
+                <p class="subtitle font-white">
                     {{ subtitle }}
                 </p>
             </div>
@@ -25,48 +28,50 @@
             </template>
             <article class="message  local-config">
 
-                <div class="tile is-ancestor">
-                    <div class="tile  is-12">
-                        <div class="tile">
-                            <div class="tile is-parent is-vertical is-8" >
+                <div class="">
+                    <div class="">
+                        <div class="is-flex is-flex-direction-column">
+                            <div class="" >
                                 <div class="message-body font-white">
                                    <p class="subtitle">SInopsis</p>
                                     <p class="content">{{ sinopsis }}</p>
                                 </div>
-                                <div class="tile is-child ">
-
-                                    <figure class="image m-5">
-                                         <iframe class="has-ratio proporcion"  :src="trailer" frameborder="0" allowfullscreen></iframe>
-                                    </figure>
-                                </div>
                             </div>
-                            <div class="tile ">
-                                <article class="tile is-child is-parent">
-                                    <div id="miniGalery" class="is-flex is-flex-direction-column is-justify-content-space-between">
-                                        <!-- agregar accesivilidad a las iamgenes -->
-                                        <figure class="image img-config">
-                                            <img :src="photos[0]">
-                                        </figure>
-                                        <figure class="image img-config">
-                                            <img :src="photos[1]">
-                                        </figure>
-                                        <figure class="image img-config">
-                                            <img :src="photos[2]">
-                                        </figure>
+                            <div class="is-flex is-flex-direction-row">
+                                <div v-if="trailer" class=" ">
+                                    <figure class="image m-5">
+                                        <iframe class="has-ratio proporcion"  :src="trailer" frameborder="0" allowfullscreen></iframe>
+                                    </figure>
                                     </div>
-                                </article>
+                                    <div v-if="photos" class=" ">
+                                    <article class="">
+                                        <div id="miniGalery" class="is-flex is-flex-direction-row is-justify-content-space-between">
+                                            <!-- agregar accesivilidad a las iamgenes -->
+                                            <figure class="image img-config">
+                                                <img :src="require(`~/assets/${photos[0]}`)">
+                                            </figure>
+                                            <figure class="image img-config">
+                                                <img :src="require(`~/assets/${photos[3]}`)">
+                                            </figure>
+                                            <figure class="image img-config">
+                                                <img :src="require(`~/assets/${photos[2]}`)">
+                                            </figure>
+                                        </div>
+                                    </article>
+                                    </div>
                             </div>
                         </div>
 
                     </div>
 
-</div>
+                </div>
             </article>
         </b-collapse>
     </div>
 </template>
 
 <script>
+console.log('aca llego el componente')
 export default {
     props : {
         bgimage: {
@@ -101,6 +106,7 @@ export default {
     },
     computed:{
          imageUrl() {
+            console.log('aca photosho: ',this.photos)
             return {"background-image": "url('"+this.bgimage+"')"}
          }
     },

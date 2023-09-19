@@ -1,6 +1,6 @@
 <template>
   <div id="container-nav" class="container py-6">
-    <b-navbar class="navbar" role="navigation" aria-label="main navigation" fixed-top="true" centered="true">
+    <b-navbar class="navbar" role="navigation" aria-label="main navigation" :fixed-top="true" :centered="true">
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
               <div class="navbar-item pl-5 animate__animated animate__bounceInDown">
