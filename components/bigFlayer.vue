@@ -2,7 +2,7 @@
 
     <!-- en todos los casos comprobar si una propiedad viene vacia usar la que este por defecto
     v-if + algo a investigar -->
-    <div class="big-flayer-config">
+    <div class="big-flayer-config mb-5">
         <section  class="hero mx-5 is-medium bgimg" :style="imageUrl">
             <div class="hero-body">
                 <p class="title font-white">
@@ -28,7 +28,7 @@
             </template>
             <article class="message  local-config">
 
-                <div class="">
+                <div class="mb-5">
                     <div class="">
                         <div class="is-flex is-flex-direction-column">
                             <div class="" >
@@ -37,28 +37,24 @@
                                     <p class="content">{{ sinopsis }}</p>
                                 </div>
                             </div>
-                            <div class="is-flex is-flex-direction-row">
-                                <div v-if="trailer" class=" ">
-                                    <figure class="image m-5">
+                            <div class="columns is-multiline">
+                                <div v-if="trailer != ''" class=" column is-three-fifths is-offset-one-fifth">
+                                    <figure class="image ">
                                         <iframe class="has-ratio proporcion"  :src="trailer" frameborder="0" allowfullscreen></iframe>
                                     </figure>
-                                    </div>
-                                    <div v-if="photos" class=" ">
-                                    <article class="">
-                                        <div id="miniGalery" class="is-flex is-flex-direction-row is-justify-content-space-between">
+                                </div>
+
+                                <div v-if="photos" class=" column is-full">
+                                    <div id="miniGalery" class="is-flex  mx-4">
                                             <!-- agregar accesivilidad a las iamgenes -->
-                                            <figure class="image img-config">
-                                                <img :src="require(`~/assets/${photos[0]}`)">
+                                            <figure class="image img-config mx-2"  v-for="(image, index) in photos" :key="index">
+                                                <!-- <img :src="require(`@/assets/${image}`)"> -->
+                                                <img :src="image">
+
                                             </figure>
-                                            <figure class="image img-config">
-                                                <img :src="require(`~/assets/${photos[3]}`)">
-                                            </figure>
-                                            <figure class="image img-config">
-                                                <img :src="require(`~/assets/${photos[2]}`)">
-                                            </figure>
+
                                         </div>
-                                    </article>
-                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -71,7 +67,6 @@
 </template>
 
 <script>
-console.log('aca llego el componente')
 export default {
     props : {
         bgimage: {
@@ -106,17 +101,32 @@ export default {
     },
     computed:{
          imageUrl() {
-            console.log('aca photosho: ',this.photos)
             return {"background-image": "url('"+this.bgimage+"')"}
          }
+
     },
+    methods :{
+        imgRequiere(image){
+
+            return require(`@/assets/${image}`)
+         }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/variables.scss";
+
+@mixin flex-direction-responsive($direction-mobile, $direction-desktop) {
+  flex-direction: $direction-mobile;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: $direction-desktop;
+  }
+}
     #miniGalery {
         height: 100%;
+        @include flex-direction-responsive(column, row);
     }
     .big-flayer-config{
         // border: 1px solid $gray-dark;
@@ -154,7 +164,9 @@ export default {
         width: auto;
         max-width: 90%;
     }
-
+    .img-config img{
+        object-fit: content;
+    }
     .proporcion{
         width: 100%;
         height: 420px;

@@ -44,6 +44,7 @@
                 </b-carousel-item>
             </b-carousel>
         </div>
+        
       </div>
 
 

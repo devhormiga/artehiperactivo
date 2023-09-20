@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div >
      <Navbar />
 
-    <nuxt />
+    <nuxt id="cajon"/>
     <!-- <Opening /> -->
     <Footer /> 
   </div>
@@ -37,6 +37,9 @@ export default {
 };
 </script>
 <style scoped>
+#cajon{
+  min-height: 100vh;
+}
 body{
   background-color: #000 !important;
 }
