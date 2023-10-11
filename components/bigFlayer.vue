@@ -3,12 +3,12 @@
     <!-- en todos los casos comprobar si una propiedad viene vacia usar la que este por defecto
     v-if + algo a investigar -->
     <div class="big-flayer-config mb-5">
-        <section  class="hero mx-5 is-medium bgimg" :style="imageUrl">
+        <section  class="hero mx-5 is-medium bgimg " :style="imageUrl">
             <div class="hero-body">
-                <p class="title font-white">
+                <p class="title ">
                     {{ title }}
                 </p>
-                <p class="subtitle font-white">
+                <p class="subtitle ">
                     {{ subtitle }}
                 </p>
             </div>
@@ -49,7 +49,7 @@
                                             <!-- agregar accesivilidad a las iamgenes -->
                                             <figure class="image img-config mx-2"  v-for="(image, index) in photos" :key="index">
                                                 <!-- <img :src="require(`@/assets/${image}`)"> -->
-                                                <img :src="image">
+                                                <img :src="image" >
 
                                             </figure>
 
@@ -124,6 +124,22 @@ export default {
     flex-direction: $direction-desktop;
   }
 }
+.big-flayer-config .hero-body {
+        transition: 1s;
+    }
+.big-flayer-config .hero-body p{
+    z-index: 2000;
+    transition: 1s;
+}
+.big-flayer-config .hero-body:hover{
+    color: #000;
+    background-color: #000000c7;
+}
+
+.big-flayer-config .hero-body:hover p {
+    color: #fff;
+    font-size: 150%;
+}
     #miniGalery {
         height: 100%;
         @include flex-direction-responsive(column, row);
@@ -166,6 +182,7 @@ export default {
     }
     .img-config img{
         object-fit: content;
+        max-height: 200px;
     }
     .proporcion{
         width: 100%;

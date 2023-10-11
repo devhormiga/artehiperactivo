@@ -9,7 +9,7 @@
             <div class="column is-6">
                 <div class="section">
                     <h1 class="title font-fux">La Compania</h1>
-                    <p>
+                    <p class="is-size-3">
                         Con el circo sobre los pies que nos llevan día a día a vivir la vida. Con el circo que atraviesa nuestras vidas queremos compartir con chicos y grandes el derecho al arte, la expresión, la imaginación, el juego.
 
                         Los barrios, las escuelas, distintos espacios públicos son escenarios sociales significativos. En estos espacios se conjuga la identidad, la ideología, la sociabilidad. Son espacios de construcción.

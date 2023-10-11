@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div class="background-face">
      <Navbar />
 
     <nuxt id="cajon"/>
@@ -39,9 +39,17 @@ export default {
 <style scoped>
 #cajon{
   min-height: 100vh;
+
+}
+.background-face{
+  background-image: url('~/assets/caritas_bn.png'); /* Ruta a tu imagen PNG */
+  background-repeat: repeat;
+  background-size: 100px;
 }
 body{
   background-color: #000 !important;
+
+
 }
 .min-height{
   min-height: 500px !important;
